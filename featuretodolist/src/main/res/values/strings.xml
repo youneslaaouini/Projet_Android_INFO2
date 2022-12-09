@@ -1,0 +1,18 @@
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string name="error_message">An error occurred</string>
+    <string name="retry">retry</string>
+    <string name="undo">undo</string>
+    <string name="archive_success">%1$s was archived</string>
+    <string name="delete_success">%1$s was deleted</string>
+
+    <!-- menu -->
+    <string name="action_todo_list">Todo list</string>
+    <string name="action_archived_list">Archived</string>
+    <string name="action_edit_todolist">Edit todo list</string>
+
+    <!-- navigation -->
+    <string name="feature_path_todolist">/todolist</string>
+
+</resources>

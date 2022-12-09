@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- layout -->
+    <string name="add_todo_hint">Task name</string>
+    <string name="add_todo_title">Add Todo</string>
+
+    <string name="confirm_delete_message">Are you sure you want to delete %1$s?</string>
+    <string name="confirm_delete_action">Delete</string>
+    <string name="error_message">An error occurred</string>
+    <string name="retry">retry</string>
+    <string name="undo">undo</string>
+    <string name="archive_success">%1$s was archived</string>
+    <string name="unarchive_success">%1$s was unarchived</string>
+
+    <!-- menu -->
+    <string name="action_add_todo">Add todo</string>
+    <string name="action_edit_todo">Edit todo</string>
+    <string name="action_delete_todo">Delete todo</string>
+    <string name="action_archive_todo">Archive todo</string>
+    <string name="action_unarchive_todo">Unarchive todo</string>
+
+    <!-- navigation -->
+    <string name="feature_path_addtodo">/addtodo</string>
+    <string name="feature_path_edittodo">/edittodo</string>
+
+    <!-- Validation -->
+    <string name="validation_todo_name_regex">..*</string>
+    <string name="validation_todo_name_errortext">Task name needs at least one character</string>
+
+</resources>

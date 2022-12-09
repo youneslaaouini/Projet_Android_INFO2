@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Navigation</string>
+
+    <!-- navigation -->
+    <string name="app_scheme">mytodolist</string>
+    <string name="app_host">mytodolist.laaouini.com</string>
+
+</resources>

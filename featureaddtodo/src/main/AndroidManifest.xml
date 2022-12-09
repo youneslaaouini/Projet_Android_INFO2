@@ -1,0 +1,44 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.laaouini.featureaddtodo">
+
+    <application>
+
+        <activity
+            android:name="com.laaaouini.featureaddtodo.addtodo.AddTodoActivity"
+            android:windowSoftInputMode="stateVisible"
+            android:label="@string/add_todo_title">
+
+            <!-- navigation deeplink -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/app_host"
+                    android:path="@string/feature_path_addtodo"
+                    android:scheme="@string/app_scheme" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.laaouini.featureaddtodo.edittodo.EditTodoActivity"
+            android:windowSoftInputMode="stateVisible">
+
+            <!-- navigation deeplink -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="@string/app_host"
+                    android:path="@string/feature_path_edittodo"
+                    android:scheme="@string/app_scheme" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+</manifest>
